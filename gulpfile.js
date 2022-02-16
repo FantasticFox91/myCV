@@ -46,21 +46,21 @@ const scripts = () => {
 
 // Images
 
-export const optimizeImages = () => {
+const optimizeImages = () => {
   return gulp.src('source/img/**/*.{jpg,png}')
   .pipe(squoosh())
   .pipe(gulp.dest('build/img'));
 }
 
-export const copyImages = () => {
+const copyImages = () => {
   return gulp.src('source/img/**/*.{jpg,png}')
   .pipe(gulp.dest('build/img'));
 }
 
 // WebP
 
-export const createWebp = () => {
-  return gulp.src('source/img/**/*.{jpg,png}')
+const createWebp = () => {
+  return gulp.src(['source/img/**/*.{jpg,png}', '!source/img/favicons/*.png'])
   .pipe(squoosh({
     webp: {},
   }))
@@ -138,13 +138,14 @@ const watcher = () => {
 export const build = gulp.series(
   clean,
   copy,
-  copyImages,
+  optimizeImages,
   gulp.parallel(
     styles,
     html,
     scripts,
     svg,
-    sprite
+    sprite,
+    createWebp
   ),
 );
 
@@ -159,7 +160,8 @@ export default gulp.series(
     html,
     scripts,
     svg,
-    sprite
+    sprite,
+    createWebp
   ),
   gulp.series(
     server,
