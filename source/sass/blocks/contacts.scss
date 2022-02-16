@@ -1,0 +1,22 @@
+.contacts__list {
+  margin-bottom: 30px;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  line-height: 30px;
+}
+
+.contacts__link {
+  position: relative;
+  margin: 0;
+  padding-left: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: $basic-animation;
+}
+
+.contacts__link:hover {
+  color: #747474;
+}

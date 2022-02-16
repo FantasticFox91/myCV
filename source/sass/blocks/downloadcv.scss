@@ -1,0 +1,18 @@
+.downloadcv__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  line-height: 30px;
+  color: inherit;
+  cursor: pointer;
+  transition: $basic-animation;
+
+  &:hover {
+    color: #747474;
+  }
+}
+
+.downloadcv__desc {
+  padding-left: 10px;
+}
+

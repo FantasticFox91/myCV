@@ -1,0 +1,16 @@
+.footer {
+  grid-column: span 2;
+  color: #FFFFFF;
+  background-color: #3D3D3F;
+}
+
+.footer__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer__link {
+  display: block;
+}

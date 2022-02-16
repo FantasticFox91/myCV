@@ -1,0 +1,12 @@
+.change-language__button {
+  font-size: 17px;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: $basic-animation;
+
+  &--active {
+    color: tomato;
+  }
+}

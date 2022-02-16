@@ -1,0 +1,18 @@
+pre {
+  padding: 20px;
+  background-color: lightgray;
+}
+
+code {
+  font-size: 14px;
+}
+
+.code__example {
+  display: none;
+
+  @media (min-width: 767px) {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+  }
+}
