@@ -1,5 +1,5 @@
 .card {
-  background-color: #CFCED4;
+  background-color: #cfced4;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   transition: $basic-animation;
@@ -7,7 +7,7 @@
 }
 
 .card:hover {
-  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
 }
 
 .card__bottom {
@@ -61,7 +61,7 @@
 
 .card__item {
   align-self: start;
-  background-color: lightskyblue;
+  background-color: #87cefa;
   margin-bottom: 5px;
   padding: 0 5px;
   border-radius: 10px;
