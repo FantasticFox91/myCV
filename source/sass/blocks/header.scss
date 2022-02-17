@@ -3,16 +3,25 @@
   max-width: 1200px;
   color: #ffffff;
   padding: 0 20px;
+  padding-top: 20px;
   grid-column: span 2;
   background-color: #3d3d3f;
   justify-content: space-between;
   align-items: center;
+
+  @media (min-width: $tablet-width) {
+    padding: 20px;
+  }
 }
 
 .header__list {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
+  display: none;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
 }
 
 .header__item:not(:last-child) {

@@ -12,11 +12,16 @@
 
 .card__bottom {
   display: grid;
-  grid-template-rows: 25px 50px 25px minmax(58px, auto);
   padding: 20px;
+
+  @media (min-width: $tablet-width) {
+    grid-template-rows: 25px 50px 25px minmax(58px, auto);
+  }
 }
 
 .card__heading {
+  display: flex;
+  flex-direction: column;
   margin: 0;
 }
 

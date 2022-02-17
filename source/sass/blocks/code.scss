@@ -7,12 +7,19 @@ code {
   font-size: 14px;
 }
 
-.code__example {
+.example__image {
+  width: 100%;
+  align-self: center;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
+
+.example__codetext {
   display: none;
 
-  @media (min-width: 767px) {
-    width: 100%;
+  @media (min-width: $tablet-width) {
     display: block;
-    object-fit: cover;
   }
 }

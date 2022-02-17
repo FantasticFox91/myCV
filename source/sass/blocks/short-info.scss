@@ -1,4 +1,9 @@
 .short-info {
   padding-top: 40px;
+  padding-bottom: 40px;
   background: linear-gradient(to bottom, #3d3d3f 180px, #e9e8ed 180px, #e9e8ed 185px, #cfced4 185px);
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 0;
+  }
 }

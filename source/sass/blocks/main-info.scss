@@ -11,9 +11,13 @@
 .main-info__full-name {
   margin: 0;
   margin-bottom: 5px;
-  font-size: 32px;
+  font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    font-size: 32px;
+  }
 }
 
 .main-info__specialization {
