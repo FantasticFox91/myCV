@@ -46,7 +46,10 @@ const i18Obj = {
     'selfeducationtext2': 'Udemy course “The Complete Web Developer in 2022: Zero to Mastery”',
     'selfeducationdate1': 'Present',
     'selfeducationtext4': 'The Rolling Scopes JavaScript/Front-end',
-    'selfeducationtext5': 'The Rolling Scopes JavaScript/Front-end. Stage 0'
+    'selfeducationtext5': 'The Rolling Scopes JavaScript/Front-end. Stage 0',
+    'keksobooking': 'Service for looking for appartments in Tokyo "Keksobooking"',
+    'modules': 'JS modules',
+    'packages': 'Using JS libraries'
   },
   'ru': {
     'about': 'Коротко обо мне',
@@ -96,7 +99,10 @@ const i18Obj = {
     'selfeducationdate1': 'по настоящее время',
     'selfeducationtext3': 'Книга по JS',
     'selfeducationtext4': 'The Rolling Scopes Курс JavaScript/Front-end',
-    'selfeducationtext5': 'The Rolling Scopes Подготовительный курс JavaScript/Front-end. Stage 0'
+    'selfeducationtext5': 'The Rolling Scopes Подготовительный курс JavaScript/Front-end. Stage 0',
+    'keksobooking': 'Сервис по поиску жилья в Токио "Кексобукинг"',
+    'modules': 'JS модули',
+    'packages': 'Использование JS библиотек'
   }
 }
 export default i18Obj;

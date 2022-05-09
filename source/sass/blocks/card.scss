@@ -62,6 +62,10 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 310px;
+
+  @media (min-width: $desktop-width) {
+    max-width: 700px;
+  }
 }
 
 .card__item {
