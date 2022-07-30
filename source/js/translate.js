@@ -49,7 +49,10 @@ const i18Obj = {
     'selfeducationtext5': 'The Rolling Scopes JavaScript/Front-end. Stage 0',
     'keksobooking': 'Housing search service in Tokyo "Keksobooking"',
     'modules': 'JS modules',
-    'packages': 'Using JS libraries'
+    'packages': 'Using JS libraries',
+    'patterns': 'Programming patterns',
+    'Drink 2GO': 'Coffee shop "Drink 2GO"',
+    'gradingproject': 'Grading project from HTML academy',
   },
   'ru': {
     'about': 'Коротко обо мне',
@@ -102,7 +105,10 @@ const i18Obj = {
     'selfeducationtext5': 'The Rolling Scopes Подготовительный курс JavaScript/Front-end. Stage 0',
     'keksobooking': 'Сервис по поиску жилья в Токио "Кексобукинг"',
     'modules': 'JS модули',
-    'packages': 'Использование JS библиотек'
+    'packages': 'Использование JS библиотек',
+    'patterns': 'Паттерны программирования',
+    'Drink 2GO': 'Магазин кофе "Dring 2GO"',
+    'gradingproject': 'Проект грейдирования из HTML academy',
   }
 }
 export default i18Obj;
