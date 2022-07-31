@@ -53,6 +53,10 @@ const i18Obj = {
     'patterns': 'Programming patterns',
     'Drink 2GO': 'Coffee shop "Drink 2GO"',
     'gradingproject': 'Grading project from HTML academy',
+    'MVP': 'MVP pattern',
+    'testing': 'Jest testing',
+    'cinemaadict': '"Cinemaadict" website, who loves cinema',
+    'server': 'Work with server'
   },
   'ru': {
     'about': 'Коротко обо мне',
@@ -109,6 +113,10 @@ const i18Obj = {
     'patterns': 'Паттерны программирования',
     'Drink 2GO': 'Магазин кофе "Dring 2GO"',
     'gradingproject': 'Проект грейдирования из HTML academy',
+    'MVP': 'MVP паттерн',
+    'testing': 'Jest тестирование',
+    'cinemaadict': 'Киноман, вэбсайт для любителей кино',
+    'server': 'Работа с сервером'
   }
 }
 export default i18Obj;
