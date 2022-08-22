@@ -57,7 +57,8 @@ const i18Obj = {
     'testing': 'Jest testing',
     'cinemaadict': '"Cinemaadict" website, who loves cinema',
     'server': 'Work with server',
-    'catalog-project': 'My own catalog project (Based on HTML draft)'
+    'catalog-project': 'My own catalog project (Based on HTML draft)',
+    'wtw': 'Online cinema "What to watch"'
   },
   'ru': {
     'about': 'Коротко обо мне',
@@ -118,7 +119,8 @@ const i18Obj = {
     'testing': 'Jest тестирование',
     'cinemaadict': 'Киноман, вэбсайт для любителей кино',
     'server': 'Работа с сервером',
-    'catalog-project': 'Мой проект страницы каталога (Основан на макете из HTML academy)'
+    'catalog-project': 'Мой проект страницы каталога (Основан на макете из HTML academy)',
+    'wtw': 'Онлайн кинотеатр "What to watch"'
   }
 }
 export default i18Obj;
