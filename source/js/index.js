@@ -2,7 +2,7 @@ import i18Obj from "./translate.js";
 
 const languageContainer = document.querySelector('.change-language');
 const languageButtons = document.querySelectorAll('.change-language__button')
-let lang = "en";
+let lang = "ru";
 
 function getTranslate(language = lang) {
   const elementsTotranslate = document.querySelectorAll('[data-i18]');
@@ -19,3 +19,5 @@ languageContainer.addEventListener('click', (event) => {
     getTranslate(event.target.dataset.language);
   }
 })
+
+getTranslate();

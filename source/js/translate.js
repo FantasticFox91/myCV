@@ -24,7 +24,10 @@ const i18Obj = {
     'books': 'Books',
     'tvshows': 'TV shows',
     'self-education': 'Self-education',
-    'profiletext': "I have been working in aviation for 6 years and after all this time and after the contract ended, I realized that do not want to continue and I was tenting to be a developer. I was spending all my free time to exposure to this wonderful world of front-end development after 10 or 12 work shifts. I realized that this process tenting me, and I do not feel tired after learning new and reinforcing old knowledge. I am on my way to becoming a qualified developer, I do not stop learning new skills and new technologies. My way is to become tech lead because I want to be a professional, to understand all the subtleties and pitfalls, positive and negative sides of using any technology when you need to use proper and right techs. Difficulties do not frighten me, but only strengthen my fuse because when you overcome something difficult, you feel this victory over something difficult that sometimes seems impossible for others. I like this feeling when they come to you for advice and see you as a highly qualified person, my motto in life is 'There is no limit to perfection'",
+    'profiletext1': "I worked in aviation for 6 years and after all this time and after the contract ended, I realized that I don’t want to continue and I really want to be a Frontend developer. I’m spending all my free time honing and deepening my knowledge at Frontend.",
+    'profiletext2': "In the next 5 years, I see myself as tech lead because I want to be a professional, to understand all the subtleties and pitfalls, positive and negative sides of using any technology when you need to use the proper and right tech.",
+    'profiletext3': "Difficulties are exciting me, because when you overcome something difficult, you feel this victory over something hard that sometimes seems impossible for others. I like this feeling when they come to you for advice and see you as a highly qualified person.",
+    'profiletext4': "My life motto is 'There is no limit to perfection'.",
     'ice-cream': 'Ice-cream shop',
     'eduactionproject': 'Education project from HTML academy',
     'githublink': 'Github link',
@@ -60,7 +63,8 @@ const i18Obj = {
     'cinemaadict': '"Cinemaadict" website, who loves cinema',
     'server': 'Work with server',
     'catalog-project': 'My own catalog project (Based on HTML draft)',
-    'wtw': 'Online cinema "What to watch"'
+    'wtw': 'Online cinema "What to watch"',
+    'education': 'Education',
   },
   'ru': {
     'about': 'Коротко обо мне',
@@ -87,7 +91,10 @@ const i18Obj = {
     'books': 'Книги',
     'tvshows': 'ТВ шоу',
     'self-education': 'Самообразование',
-    'profiletext': "Проработав 6 лет в авиационной сфере и по истечению контракта, я понял, что больше не хочу этим заниматься и меня тянет в сторону разработки. Приходя после 10, а иногда и 12 часовой смены я тратил все свое свободное время на погружения в этот дивный мир Фронтэнда. Я понял, что этот процесс меня очень сильно затягивает и я не устаю от изучения нового и закрепления своих знаний. Сейчас я нахожусь на пути становления полноценным разработчиком, не перестаю изучать все новые и современные технологии разработки. Мой путь ведет меня к становлению техническим лидером так как я хочу быть профессионалом своего дела и понимать все тонкости, особенности, положительные и отрицательный стороны той или иной технологии, когда их стоит использовать, а когда это уже будет чересчур. Трудности меня не пугают, а только усиливают мой запал, ведь когда ты преодолеваешь что-то трудное ты чувствуешь эту победу над чем-то сложным что для других иногда кажется не возможным. Мне нравиться это чувство, когда к тебе приходят за советом и видят в тебе высококвалифицированного человека, мой девиз по жизни «Нет пределу совершенству»",
+    'profiletext1': "Проработав 6 лет в авиационной сфере и по истечению контракта, я понял, что больше не хочу этим заниматься и я хочу стать Фронтенд разработчиком. Я посвящаю все свое свободное время на оттачивание и углубления своих знаний во Фронтенде.",
+    'profiletext2': "В ближайшие 5 лет я вижу себя как тех лида так как я хочу быть профессионалом своего дела: понимать все тонкости, особенности, положительные и отрицательный стороны той или иной технологии, когда их стоит использовать, а когда это уже будет чересчур.",
+    'profiletext3': "Трудности меня вдохновляют, ведь когда ты преодолеваешь что-то трудное ты чувствуешь эту победу над чем-то сложным что для других иногда кажется не возможным. Мне нравиться это чувство, когда к тебе приходят за советом и видят в тебе высококвалифицированного человека.",
+    'profiletext4': "Мой девиз по жизни «Нет пределу совершенству».",
     'ice-cream': 'Магазин мороженного',
     'eduactionproject': 'Обучающий проект из HTML academy',
     'githublink': 'Ссылка на гитхаб',
@@ -124,7 +131,8 @@ const i18Obj = {
     'cinemaadict': 'Киноман, вэбсайт для любителей кино',
     'server': 'Работа с сервером',
     'catalog-project': 'Мой проект страницы каталога (Основан на макете из HTML academy)',
-    'wtw': 'Онлайн кинотеатр "What to watch"'
+    'wtw': 'Онлайн кинотеатр "What to watch"',
+    'education': 'Обучение',
   }
 }
 export default i18Obj;
