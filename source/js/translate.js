@@ -65,6 +65,7 @@ const i18Obj = {
     'catalog-project': 'My own catalog project (Based on HTML draft)',
     'wtw': 'Online cinema "What to watch"',
     'education': 'Education',
+    'sedona-nuxt': 'Sedona, project completed on Nuxt(I took only design from education project)'
   },
   'ru': {
     'about': 'Коротко обо мне',
@@ -133,6 +134,7 @@ const i18Obj = {
     'catalog-project': 'Мой проект страницы каталога (Основан на макете из HTML academy)',
     'wtw': 'Онлайн кинотеатр "What to watch"',
     'education': 'Обучение',
+    'sedona-nuxt': 'Sedona, переделанный проект на Nuxt(Только макет был взят из обучения)'
   }
 }
 export default i18Obj;
