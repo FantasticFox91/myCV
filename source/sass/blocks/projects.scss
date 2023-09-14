@@ -1,0 +1,12 @@
+.projects__list {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px 20px;
+  grid-auto-flow: row;
+  margin-bottom: 30px;
+
+  @media (min-width: 767px) {
+    grid-template-columns: 1fr;
+  }
+}

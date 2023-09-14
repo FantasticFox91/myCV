@@ -1,0 +1,22 @@
+.duties {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.duties__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 0;
+    width: 15px;
+    height: 2px;
+    background-color: $black-color;
+  }
+}
